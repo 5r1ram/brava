@@ -1,8 +1,7 @@
 import Script from "next/script";
-import { Navbar, Brandline, AutoScrollbar } from "../components";
+import { Navbar, Brandline, AutoScrollbar, BrandCard } from "../components";
 
 import "../styles/globals.css";
-import BrandCard from "@/components/BrandCard";
 
 const App = ({ Component, pageProps }) => (
   <div>
