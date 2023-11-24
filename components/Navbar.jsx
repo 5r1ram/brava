@@ -13,7 +13,7 @@ const Navbar = () => {
   // console.log(images);
 
   return (
-    <nav className="flexBetween w-full fixed bg-gray text-white h-20 px-10 p-4">
+    <nav className="flexBetween w-full bg-gray text-white h-20 px-10 p-4">
       {/* primary-menu */}
       <ul className="flex justify-around items-center gap-10 ">
         <li className="flexBetween menu-link">
