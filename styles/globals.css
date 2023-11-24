@@ -55,3 +55,53 @@ body {
   justify-content: center;
   align-items: flex-start;
 }
+
+.menu-link {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.menu-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #e1c301;
+  transition: width 0.3s ease;
+}
+
+.menu-link:hover {
+  color: #e1c301;
+}
+
+.menu-link:hover::after {
+  width: 100%;
+}
+
+.dropdownmenu {
+  position: absolute;
+  top: 4.5rem;
+  right: 1.5rem;
+  width: 120px;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: white;
+  border: 1px solid gray;
+}
+
+.dropdownmenu:hover::before {
+  content: "";
+  position: absolute;
+  top: -0.7rem;
+  right: 1.1rem;
+  width: 20px;
+  height: 20px;
+  transform: rotate(45deg);
+  background-color: white;
+  border-left: 1px solid gray !important;
+  border-top: 1px solid gray !important;
+}
