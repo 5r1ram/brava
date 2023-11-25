@@ -59,6 +59,7 @@ const Home = () => {
 
   const isEvenIndex = currentIndex % 2 === 0;
   const textPosition = isEvenIndex ? "left-20" : "right-20";
+  // const linkPosition = isEvenIndex ? "left-10" : "right-10";
   const linkPosition = isEvenIndex ? "left-10" : "right-10";
 
   useEffect(() => {
