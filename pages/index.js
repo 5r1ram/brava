@@ -59,7 +59,6 @@ const Home = () => {
 
   const isEvenIndex = currentIndex % 2 === 0;
   const textPosition = isEvenIndex ? "left-20" : "right-20";
-  // const linkPosition = isEvenIndex ? "left-10" : "right-10";
   const linkPosition = isEvenIndex ? "left-10" : "right-10";
 
   useEffect(() => {
@@ -90,11 +89,11 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl p-2 bg-black/20 text-white bg-black hover:text-black hover:bg-white rounded-full cursor-pointer">
+      <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl p-2 bg-black/20 text-white bg-black rounded-full cursor-pointer">
         <i className="fa-solid fa-arrow-left" onClick={prevSlide} />
       </div>
 
-      <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white bg-black hover:text-black hover:bg-white cursor-pointer">
+      <div className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white bg-black cursor-pointer">
         <i className="fa-solid fa-arrow-right" onClick={nextSlide} />
       </div>
     </div>

@@ -11,7 +11,6 @@ const App = ({ Component, pageProps }) => (
     <Component {...pageProps} />
 
     <AutoScrollbar />
-    <BrandCard />
 
     <Script
       src="https://kit.fontawesome.com/32523335c6.js"

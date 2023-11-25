@@ -1,7 +1,7 @@
 import React from "react";
 
 const ShopMenu = () => (
-  <div className="flex flex-col dropdownmenu w-full h-20">
+  <div className="flex flex-col dropdownmenu">
     <div>
       <span>apparel</span>
       <ul className="flex flex-col gap-4">
