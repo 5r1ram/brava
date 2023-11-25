@@ -136,7 +136,6 @@ body {
   max-width: 100% !important;
   margin-bottom: 50px;
   overflow: hidden;
-  background-color: #dadfe3;
   position: relative;
   height: 300px;
   box-sizing: border-box;
@@ -195,4 +194,30 @@ body {
     padding-bottom: 0 30px;
     font-size: xx-large !important;
   }
+}
+
+/* Text Overlay on Image */
+.image-container {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white; /* Text color */
+}
+
+.overlay a {
+  text-decoration: none;
+}
+
+.overlay h2 {
+  margin: 0;
+}
+
+.font-lexend {
+  font-family: "lexend", sans-serif;
 }

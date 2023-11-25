@@ -2,7 +2,13 @@ import { Html, Head, Main, NextScript } from "next/document";
 
 const Document = () => (
   <Html lang="en">
-    <Head />
+    <Head>
+      <link
+        href="https://fonts.google.com/specimen/Lexend?query=lexend"
+        rel="stylesheet"
+      />
+    </Head>
+
     <body>
       <Main />
       <NextScript />
